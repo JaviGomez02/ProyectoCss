@@ -27,6 +27,11 @@ body {
   font-weight: bold;
 }
 
+.header img {
+  height: 100px;
+  width: 100px;
+}
+
 .header a:hover {
   background-color: #ddd;
   color: black;
@@ -39,6 +44,7 @@ body {
 
 .header-right {
   float: right;
+  margin-top: 25px;
 }
 
 @media screen and (max-width: 500px) {
