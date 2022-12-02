@@ -14,7 +14,7 @@ body{
   min-height: 100vh;
   max-height: auto;
   display: grid;
-  grid-template-rows: 1fr 5fr 0.5fr;
+  grid-template-rows: 0.8fr 5fr 0.5fr;
   background-color: #fbfafa;
   background-image: url("Images/fondo.png");
   background-size: cover;
@@ -33,12 +33,17 @@ body{
   text-align: center;
 }
 
-.titulo{
-  font-size: 3cm;
+.subtitulo{
+  font-size: 1.7cm;
+  color: #161513;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic; 
+  font-weight: bold;
 }
 
-.subtitulo{
+.boton_text{
   font-size: 1.5cm;
+  color: #fbfafa
 }
 
 img{
@@ -47,8 +52,29 @@ img{
   object-fit: contain;
 }
 
+button{
+  background-color: #2596be;
+  width: 70vw;
+  height: 10vh;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #6f5f5f;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
 .footer{
   height: 100%;
   grid-row: 3/4;
-  background-color: #655b44;
+  background-color: #635858;
+}
+
+#principal-galeria{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 4fr 0.5fr;
+}
+
+.general-info{
+ 
 }
